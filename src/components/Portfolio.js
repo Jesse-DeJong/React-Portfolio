@@ -2,9 +2,7 @@
 import React, { useState, useHook } from 'react';
 
 const Portfolio = () => {
-
+    return;
 };
 
-export {
-    Portfolio
-};
+export default Portfolio;

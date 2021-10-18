@@ -5,6 +5,4 @@ const AboutMe = () => {
 
 };
 
-export {
-    AboutMe
-};
+export default AboutMe;
