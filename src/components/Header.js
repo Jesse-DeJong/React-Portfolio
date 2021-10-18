@@ -1,7 +1,7 @@
 // Import React
 import React, { useState, useHook, Link } from 'react';
 
-const Navbar = () => {
+const Header = () => {
     return (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -37,4 +37,4 @@ const Navbar = () => {
     )
 };
 
-export default Navbar;
+export default Header;
