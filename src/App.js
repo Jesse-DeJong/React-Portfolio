@@ -14,18 +14,11 @@ import Footer from './components/Footer';
 function App() {
   return (
   <> 
-    <Header />
-      <Router>
-        <Switch>
+    <Router>
+      <Header />
 
-          {/* Default Route loading the page on the About Me section */}
-          <Route path="/">
-            <Navigation />
-          </Route>
-
-        </Switch>
-      </Router>
-    <Footer />
+      <Footer />
+    </Router>
   </>
   )
 };
