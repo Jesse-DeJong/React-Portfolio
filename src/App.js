@@ -33,6 +33,10 @@ function App() {
           <Route path="/resume">
             <Resume />
           </Route>
+          {/* default path to about me page */}
+          <Route path="/">
+            <About />
+          </Route>
 
         </Switch>
       <Footer />

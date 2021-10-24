@@ -7,15 +7,20 @@ const styles = {
         display: "inline-block",
         padding: "0px 20px",
         fontSize: "30px"
+    },
+    developer: {
+        display: "inline-block",
+        fontSize: "80px",
+        fontFamily: "copperplate"
     }
 }
 
 const Navigation = () => {
     return (
 <>
-    <div className="container-fluid d-flex justify-content-around align-items-center">
+    <div className="container-fluid d-flex justify-content-between align-items-center">
         <ul className="d-flex">
-            <li style={styles.listItems}>
+            <li style={styles.developer}>
                 Lernantino
             </li>
         </ul>
@@ -38,6 +43,9 @@ const Navigation = () => {
             </li>
         </ul>
     </div>
+
+    {/* Switch Case for conditional rendering of each page */}
+
 </>
     );
 }
