@@ -20,8 +20,8 @@ const Project = ({
         <div className="card-body">
             <h5 className="card-title">{repoName}</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href={repoUrl} className="btn btn-primary" style={styles.button}>View Repo</a>
-            <a href={deployedUrl} className="btn btn-info" style={styles.button}>View Deployed</a>
+            <a href={repoUrl} className="btn btn-primary" style={styles.button} target="_blank">View Repo</a>
+            <a href={deployedUrl} className="btn btn-info" style={styles.button} target="_blank">View Deployed</a>
         </div>
     </div>
 </>
