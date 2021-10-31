@@ -1,17 +1,18 @@
 // Import React
-import React, { useState, useHook } from 'react';
-import { BrowserRouter as Router, NavLink } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const styles = {
     listItems: {
         display: "inline-block",
         padding: "0px 20px",
-        fontSize: "30px"
+        fontSize: "30px",
+        color: "white"
     },
     developer: {
         display: "inline-block",
         fontSize: "80px",
-        fontFamily: "copperplate"
+        fontFamily: "copperplate",
     }
 }
 

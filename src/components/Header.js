@@ -1,11 +1,11 @@
 // Import React
-import React, { useState, useHook } from 'react';
+import React from 'react';
 import Navigation from './Navigation';
 
 const styles = {
     header: {
         lineHeight: "200px",
-        background: "green"
+        backgroundImage: `url("https://background-tiles.com/overview/mixed-colors/patterns/large/1090.png")`
     }
 }
 

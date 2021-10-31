@@ -15,7 +15,7 @@ export default function About() {
     <div>
       <h1>Who am I?</h1>
         <div className="container-fluid d-flex">
-          <img src={headshot} style={styles.img}></img>
+          <img src={headshot} style={styles.img} alt="dev headshot"></img>
           <div className="container-fluid d-flex" style={styles.card}>
             <p style={styles.p}>
               Short Bio:
